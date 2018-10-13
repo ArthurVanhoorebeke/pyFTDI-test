@@ -31,6 +31,7 @@ while True:
     ft232h.write(0X08)
   else:
     print("light OFF")
+    ft232h.write(0X00)
 
   
 ft232h.close()
