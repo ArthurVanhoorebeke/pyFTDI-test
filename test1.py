@@ -30,7 +30,7 @@ while True:
     print("input in D7 is TRUE => light ON")
     ft232h.write(0X08)
   else:
-    print("light OFF")
+    print("input in D7 is FALSE => light OFF")
     ft232h.write(0X00)
 
   
